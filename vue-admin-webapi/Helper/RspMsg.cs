@@ -29,6 +29,33 @@ namespace vue_admin_webapi.Helper
         public RspMsg(RspType rsp)
         {
             obj.Add("Code", rsp);
+            switch (rsp)
+            {
+                case RspType.OK:
+                    obj.Add("Message", "成功");
+                    break;
+                case RspType.DBError:
+                    obj.Add("Message", "数据库报错");
+                    break;
+                case RspType.ProgamError:
+                    obj.Add("Message", "程序报错");
+                    break;
+                case RspType.CheckError:
+                    obj.Add("Message", "参数校验不通过");
+                    break;
+                case RspType.ReComit:
+                    obj.Add("Message", "重复提交");
+                    break;
+                case RspType.ReLogin:
+                    obj.Add("Message", "请重新登录");
+                    break;
+                case RspType.NoAuth:
+                    obj.Add("Message", "没有操作权限");
+                    break;
+                default:
+                    obj.Add("Message", "");
+                    break;
+            }
         }
 
         public RspMsg(RspType rsp, string msg)

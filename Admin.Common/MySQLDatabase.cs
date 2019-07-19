@@ -41,5 +41,20 @@ namespace Admin.Common
             }
         }
 
+        public T ExecuteToSingle<T>(string sqlStr, object param = null)
+        {
+            using (MySqlConnection conn = new MySqlConnection(this.ConnectionString))
+            {
+                return conn.QuerySingle<T>(sqlStr, param);
+            }
+        }
+
+        public int Execute(string sqlStr, object param = null)
+        {
+            using (MySqlConnection conn = new MySqlConnection(this.ConnectionString))
+            {
+                return conn.Execute(sqlStr, param);
+            }
+        }
     }
 }

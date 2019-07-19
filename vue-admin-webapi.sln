@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vue-admin-webapi", "vue-admin-webapi\vue-admin-webapi.csproj", "{0E1E2FBD-C53F-49C8-8547-D2AFBA0751F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "vue_admin_webapi", "vue-admin-webapi\vue_admin_webapi.csproj", "{0E1E2FBD-C53F-49C8-8547-D2AFBA0751F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Admin.Common", "Admin.Common\Admin.Common.csproj", "{5EB8E09B-5330-470A-97AD-B3994D33BB2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Admin.Common", "Admin.Common\Admin.Common.csproj", "{5EB8E09B-5330-470A-97AD-B3994D33BB2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Admin.Model", "Admin.Model\Admin.Model.csproj", "{C4ED53CA-E2BE-432C-94EF-6FEA99A10AB3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Admin.Model", "Admin.Model\Admin.Model.csproj", "{C4ED53CA-E2BE-432C-94EF-6FEA99A10AB3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Admin.BizData", "Admin.BizData\Admin.BizData.csproj", "{110954CE-C275-4A4C-B574-09ABB46223EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Admin.BizData", "Admin.BizData\Admin.BizData.csproj", "{110954CE-C275-4A4C-B574-09ABB46223EC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
